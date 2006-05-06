@@ -1,6 +1,6 @@
 ---
 name: WWW-Search-AOL
-version: 0.0101
+version: 0.0102
 author:
   - Shlomi Fish <shlomif@iglu.org.il>
 abstract: backend for searching search.aol.com
@@ -16,7 +16,7 @@ requires:
 provides:
   WWW::Search::AOL:
     file: lib/WWW/Search/AOL.pm
-    version: 0.0101
+    version: 0.0102
 generated_by: Module::Build version 0.2704
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html
