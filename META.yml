@@ -1,23 +1,23 @@
 ---
 name: WWW-Search-AOL
-version: 0.0102
+version: 0.0103
 author:
-  - Shlomi Fish <shlomif@iglu.org.il>
+  - 'Shlomi Fish <shlomif@iglu.org.il>'
 abstract: backend for searching search.aol.com
-license: bsd
+license: mit
 resources:
-  license: http://www.opensource.org/licenses/bsd-license.php
+  license: http://www.opensource.org/licenses/mit-license.php
 requires:
   HTML::TreeBuilder: 0
   Scalar::Util: 0
   Test::More: 0
-  WWW::Search: 2.523
-  WWW::Search::Test: 2.265
+  WWW::Search: 2.565
+  WWW::Search::Test: 2.287
 provides:
   WWW::Search::AOL:
     file: lib/WWW/Search/AOL.pm
-    version: 0.0102
-generated_by: Module::Build version 0.2704
+    version: 0.0103
+generated_by: Module::Build version 0.32
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html
   version: 1.2
