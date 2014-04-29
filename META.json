@@ -1,0 +1,46 @@
+{
+   "abstract" : "backend for searching search.aol.com",
+   "author" : [
+      "Shlomi Fish <shlomif@iglu.org.il>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Module::Build version 0.4205",
+   "license" : [
+      "mit"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "WWW-Search-AOL",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.36"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "HTML::TreeBuilder" : "0",
+            "Scalar::Util" : "0",
+            "Test::More" : "0",
+            "WWW::Search" : "2.565",
+            "WWW::Search::Test" : "2.287",
+            "perl" : "5.008"
+         }
+      }
+   },
+   "provides" : {
+      "WWW::Search::AOL" : {
+         "file" : "lib/WWW/Search/AOL.pm",
+         "version" : "0.0104"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "license" : [
+         "http://www.opensource.org/licenses/mit-license.php"
+      ]
+   },
+   "version" : "0.0104"
+}
